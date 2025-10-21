@@ -26,3 +26,93 @@ section {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.Text {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 20px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.big-1-text-info {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 50px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.big-2-text-info {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 50px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.big-1-text-100 {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 64px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.big-2-text-100 {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 64px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info-1 {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 28px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info-2 {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 28px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Text-1 {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 20px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Text-2 {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 20px;
+    color: #1210A2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
