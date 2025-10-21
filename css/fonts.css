@@ -75,7 +75,7 @@
   src: url('../fonts/FiraSans-Light.ttf') format('truetype'),
     url('../fonts/FiraSans-Light.woff') format('woff');
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 @font-face {
@@ -83,7 +83,7 @@
   src: url('../fonts/FiraSans-LightItalic.ttf') format('truetype'),
     url('../fonts/FiraSans-LightItalic.woff') format('woff');
   font-style: italic;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 @font-face {
@@ -91,7 +91,7 @@
   src: url('../fonts/FiraSans-Medium.ttf') format('truetype'),
     url('../fonts/FiraSans-Medium.woff') format('woff');
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @font-face {
@@ -99,7 +99,7 @@
   src: url('../fonts/FiraSans-MediumItalic.ttf') format('truetype'),
     url('../fonts/FiraSans-MediumItalic.woff') format('woff');
   font-style: italic;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @font-face {
@@ -107,7 +107,7 @@
   src: url('../fonts/FiraSans-Regular.ttf') format('truetype'),
     url('../fonts/FiraSans-Regular.woff') format('woff');
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @font-face {

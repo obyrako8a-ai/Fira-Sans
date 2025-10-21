@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 1440px; /* По ширине макета */
+    margin: 0 auto; /* Выравнивание по центру */
+    display: block;
+}
+
+section { 
+    border: 1px dashed #ccc; 
+}
+
+.hero {
+    position: relative;
+    height: 900px; /*Высота первого экрана*/
+    background: url('../images/Fon1.svg') center/cover no-repeat;
+}
+
+.hero_title {
+    position: absolute;
+    font-family: 'FiraSans'; 
+    font-size: 236px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
