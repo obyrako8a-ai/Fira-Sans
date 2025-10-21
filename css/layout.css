@@ -7,8 +7,9 @@ body {
     display: block;
 }
 
-section { 
-    border: 1px dashed #ccc; 
+.section-1 { 
+    border: 1px dashed #ccc;
+    position: relative;
 }
 
 .hero {
@@ -22,8 +23,8 @@ section {
     font-family: 'FiraSans'; 
     font-size: 236px;
     color: white;
-    top: 50%;
-    left: 50%;
+    top: 213px;
+    left: 81px;
     transform: translate(-50%,-50%);
 }
 
@@ -107,7 +108,7 @@ section {
     transform: translate(-50%,-50%);
 }
 
-.Text-2 {
+.Text- {
     position: absolute;
     font-family: 'FiraSans'; 
     font-size: 20px;
