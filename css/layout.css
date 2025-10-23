@@ -8,8 +8,12 @@ body {
 }
 
 .section-1 { 
-    border: 1px dashed #ccc;
-    position: relative;
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1458px;
+height: 929px;
 }
 
 .hero {
@@ -18,102 +22,144 @@ body {
     background: url('../images/Fon1.svg') center/cover no-repeat;
 }
 
+.new-badge {
+ position: absolute;
+ top: 669px;
+ left: 127px;
+ width: 249px;
+ font-family: "FiraSans-Medium", Helvetica;
+ font-weight: 500;
+ color: #1210a2;
+ font-size: 50px;
+ letter-spacing: 0;
+ line-height: 20px;
+}
+
+.collection-title {
+ position: absolute;
+ top: 515px;
+ left: 1066px;
+ width: 236px;
+ font-family: "FiraSans-Medium", Helvetica;
+ font-weight: 500;
+ color: #1210a2;
+ font-size: 50px;
+ letter-spacing: 0;
+ line-height: 20px;
+}
+
+.text-wrapper-37 {
+ left: 512px;
+ position: absolute;
+ top: 607px;
+ font-family: "FiraSans-Black", Helvetica;
+ font-weight: 900;
+ color: #1210a2;
+ font-size: 64px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-36 {
+ left: 766px;
+ position: absolute;
+ top: 607px;
+ font-family: "FiraSans-Black", Helvetica;
+ font-weight: 900;
+ color: #1210a2;
+ font-size: 64px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-38 {
+ position: absolute;
+ top: 667px;
+ left: 536px;
+ font-family: "FiraSans-SemiBold", Helvetica;
+ font-weight: 600;
+ color: #1210a2;
+ font-size: 28.7px;
+ text-align: center;
+ letter-spacing: 0;
+ line-height: 32px;
+}
+
+.text-wrapper-39 {
+ position: absolute;
+ top: 667px;
+ left: 785px;
+ font-family: "FiraSans-SemiBold", Helvetica;
+ font-weight: 600;
+ color: #1210a2;
+ font-size: 28.7px;
+ text-align: center;
+ letter-spacing: 0;
+ line-height: 32px;
+}
+
 .hero_title {
     position: absolute;
-    font-family: 'FiraSans'; 
+    top: 112px;
+    left: 246px;
+    font-family: 'FiraSans SemiBold'; 
     font-size: 236px;
     color: white;
-    top: 81px;
-    left: 239px;
-    transform: translate(-50%,-50%);
+    width: 946px;
+    height: 199px;
+    text-shadow: -7px 4px 0px 0px rgba(0, 0, 0, 1);
 }
 
-.Text {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 20px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.text-wrapper-34 {
+ position: absolute;
+ top: 554px;
+ left: 1068px;
+ width: 242px;
+ font-family: "Fira Sans-Medium", Helvetica;
+ font-weight: 500;
+ color: #1210a2;
+ font-size: 20px;
+ letter-spacing: -1.00px;
+ line-height: 22px;
 }
 
-.big-1-text-info {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 50px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.text-wrapper-35 {
+ position: absolute;
+ top: 712px;
+ left: 128px;
+ width: 280px;
+ font-family: "Fira Sans-Medium", Helvetica;
+ font-weight: 500;
+ color: #1210a2;
+ font-size: 20px;
+ letter-spacing: 0;
+ line-height: 22px;
 }
 
-.big-2-text-info {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 50px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+/* Стили для секции 2 */
+.section-2 {
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1458px;
+height: 1194px;
+    padding: 76px 53; /* Отступы сверху и снизу для секции */
 }
 
-.big-1-text-100 {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 64px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.section-2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.big-2-text-100 {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 64px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.info-1 {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 28px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.info-2 {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 28px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.Text-1 {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 20px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.Text- {
-    position: absolute;
-    font-family: 'FiraSans'; 
-    font-size: 20px;
-    color: #1210A2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+/* Горизонтальный прямоугольник */
+.horizontal-rectangle {
+    width: 1005px;    /* Ширина (горизонтальная) */
+    height: 359px;    /* Высота (вертикальная) */
+    background-color: #1210A2;
+    border-radius: 56.86px;
 }
