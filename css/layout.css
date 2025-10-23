@@ -14,7 +14,7 @@ body {
 
 .hero {
     position: relative;
-    height: 900px; /*Высота первого экрана*/
+    height: 929px; /*Высота первого экрана*/
     background: url('../images/Fon1.svg') center/cover no-repeat;
 }
 
@@ -23,8 +23,8 @@ body {
     font-family: 'FiraSans'; 
     font-size: 236px;
     color: white;
-    top: 213px;
-    left: 81px;
+    top: 81px;
+    left: 239px;
     transform: translate(-50%,-50%);
 }
 
