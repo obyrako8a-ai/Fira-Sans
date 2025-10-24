@@ -399,7 +399,7 @@ border: 1px dashed #ccc;
 top: 0;
 left: 0;
 width: 1440px;
-height: 1138px;
+height: 1077px;
 padding: 76px 53; /* Отступы сверху и снизу для секции */
 }
 
@@ -455,9 +455,113 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 
 .text-wrapper-11 {
     position: absolute;
-    top: 129px;
-    left: 405px;
+    top: 68px;
+    left: 342px;
     font-family: 'FiraSans Bold'; 
     font-size: 128px;
     color: #F8E184;
+}
+
+/* Фотографии */
+.gallery-section {
+    width: 100%;
+    padding: 40px 0;
+    background: #fff;
+}
+
+.gallery-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 84px; /* Отступ между плашкой сверху и блоком фото */
+}
+
+/* Ряд с тремя фотографиями */
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px; /* Расстояние между рядами */
+}
+
+.gallery-row:last-child {
+    margin-bottom: 0;
+}
+
+/* Каждая фотография с подписью */
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333% - 94.67px); /* (142px * 2) / 3 = 94.67px */
+}
+
+/* Стили для фотографий - БЕЗ обрезания и эффектов */
+.gallery-photo {
+    width: 100%;
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    display: block; /* Убирает лишние отступы */
+}
+
+/* Подписи к фотографиям */
+.photo-caption {
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'FiraSans Medium', sans-serif;
+    font-size: 64px;
+    color: #1210A2;
+    line-height: 1.4;
+}
+
+/* Стили для секции 6 */
+.section-6 {
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1440px;
+height: 1056px;
+padding: 76px 53; /* Отступы сверху и снизу для секции */
+}
+
+.section-6-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Горизонтальный прямоугольник */
+.horizontal-rectangle-6 {
+    width: 585px;    /* Ширина */
+    height: 197px;    /* Высота */
+    background-color: #1210A2;
+    border-radius: 56.86px;
+}
+
+.text-wrapper-12 {
+    position: absolute;
+    top: 68px;
+    left: 342px;
+    font-family: 'FiraSans Bold'; 
+    font-size: 128px;
+    color: #F8E184;
+}
+
+/* Стили для секции 7 */
+.section-7 {
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1440px;
+height: 1056px;
+padding: 76px 53; /* Отступы сверху и снизу для секции */
+}
+
+.text-wrapper-13 {
+    position: absolute;
+    top: 68px;
+    left: 56px;
+    font-family: 'FiraSans Medium'; 
+    font-size: 64px;
+    color: #1210A2;
 }
