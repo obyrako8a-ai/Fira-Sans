@@ -7,12 +7,13 @@ body {
     display: block;
 }
 
+/* Стили для секции 1 */
 .section-1 { 
 position: relative;
 border: 1px dashed #ccc;
 top: 0;
 left: 0;
-width: 1458px;
+width: 1440px;
 height: 929px;
 }
 
@@ -144,9 +145,14 @@ position: relative;
 border: 1px dashed #ccc;
 top: 0;
 left: 0;
-width: 1458px;
-height: 1194px;
-    padding: 76px 53; /* Отступы сверху и снизу для секции */
+width: 1440px;
+height: 1269px;
+padding: 76px 53; /* Отступы сверху и снизу для секции */
+}
+
+.section-2 {
+    width: 100%;
+    padding: 40px 0; /* Отступы сверху и снизу для секции */
 }
 
 .section-2-content {
@@ -158,8 +164,206 @@ height: 1194px;
 
 /* Горизонтальный прямоугольник */
 .horizontal-rectangle {
-    width: 1005px;    /* Ширина (горизонтальная) */
-    height: 359px;    /* Высота (вертикальная) */
+    width: 722px;    /* Ширина */
+    height: 197px;    /* Высота */
     background-color: #1210A2;
     border-radius: 56.86px;
+}
+
+.text-wrapper-0 {
+    position: absolute;
+    top: 129px;
+    left: 405px;
+    font-family: 'FiraSans Bold'; 
+    font-size: 128px;
+    color: #F8E184;
+}
+
+.text-wrapper-1 {
+ left: 558px;
+ position: absolute;
+ top: 679px;
+ font-family: "FiraSans-Black", Helvetica;
+ font-weight: 900;
+ color: #F8E184;
+ font-size: 64px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-2 {
+ left: 584px;
+ position: absolute;
+ top: 865px;
+ font-family: "FiraSans-Black", Helvetica;
+ font-weight: 900;
+ color: #F8E184;
+ font-size: 64px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-3 {
+ left: 563px;
+ position: absolute;
+ top: 1070px;
+ font-family: "FiraSans-Black", Helvetica;
+ font-weight: 900;
+ color: #F8E184;
+ font-size: 64px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+/* фотографии во 2 секции */
+.photos-container {
+    position: relative;
+    width: 100%;
+    height: 1187px;
+}
+
+.photo-background {
+    position: absolute;
+    width: 100%;
+    height: 494px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.photo-left {
+    position: absolute;
+    left: 0px; 
+    top: 98px;
+    transform: translateY(-50%);
+    width: 35%; /* Ширина в процентах от контейнера */
+    max-width: 400px;
+    height: 60%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.photo-right {
+    position: absolute;
+    right: 30px; /* Небольшой отступ от правого края */
+    top: 40px; /* Отступ сверху */
+    width: 30%;
+    max-width: 350px;
+    height: 50%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+/* Стили для секции 3 */
+.section-3 {
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1440px;
+height: 1456px;
+padding: 76px 53; /* Отступы сверху и снизу для секции */
+}
+
+.section-3-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Горизонтальный прямоугольник */
+.horizontal-rectangle {
+    width: 667px;    /* Ширина */
+    height: 197px;    /* Высота */
+    background-color: #1210A2;
+    border-radius: 56.86px;
+}
+
+/* фотографии в 3 секции */
+.photos-container {
+    position: relative;
+    width: 100%;
+    height: 1187px;
+}
+
+.photo-background {
+    position: absolute;
+    width: 100%;
+    height: 494px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.photo-left-7 {
+    position: absolute;
+    left: 0px; 
+    top: 98px;
+    transform: translateY(-50%);
+    width: 35%; /* Ширина в процентах от контейнера */
+    max-width: 400px;
+    height: 60%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.photo-left-8 {
+    position: absolute;
+    right: 30px; /* Небольшой отступ от правого края */
+    top: 40px; /* Отступ сверху */
+    width: 30%;
+    max-width: 350px;
+    height: 50%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.text-wrapper-6 {
+    position: absolute;
+    top: 129px;
+    left: 405px;
+    font-family: 'FiraSans Bold'; 
+    font-size: 128px;
+    color: #F8E184;
+}
+
+.text-wrapper-7 {
+ left: 178px;
+ position: absolute;
+ top: 1070px;
+ font-family: "FiraSans-Bold", Helvetica;
+ font-weight: 900;
+ color: #1210A2;
+ font-size: 48px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-8 {
+ left: 563px;
+ position: absolute;
+ top: 1070px;
+ font-family: "FiraSans-Italic", Helvetica;
+ font-weight: 900;
+ color: #1210A2;
+ font-size: 24px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-9 {
+ left: 563px;
+ position: absolute;
+ top: 1070px;
+ font-family: "FiraSans-Italic", Helvetica;
+ font-weight: 900;
+ color: #1210A2;
+ font-size: 24px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
 }
