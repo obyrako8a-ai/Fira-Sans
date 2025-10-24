@@ -103,13 +103,11 @@ height: 929px;
 
 .hero_title {
     position: absolute;
-    top: 112px;
-    left: 246px;
+    top: 81px;
+    left: 239px;
     font-family: 'FiraSans SemiBold'; 
-    font-size: 236px;
+    font-size: 236.75px;
     color: white;
-    width: 946px;
-    height: 199px;
     text-shadow: -7px 4px 0px 0px rgba(0, 0, 0, 1);
 }
 
@@ -213,6 +211,32 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
  font-weight: 900;
  color: #F8E184;
  font-size: 64px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-4 {
+ left: 103px;
+ position: absolute;
+ top: 1292px;
+ font-family: "FiraSans-Italic", Helvetica;
+ font-weight: 900;
+ color: #1210A2;
+ font-size: 27px;
+ letter-spacing: 0;
+ line-height: 38.8px;
+ white-space: nowrap;
+}
+
+.text-wrapper-5 {
+ left: 179.92px;
+ position: absolute;
+ top: 1221.93px;
+ font-family: "FiraSans-Bold", Helvetica;
+ font-weight: 900;
+ color: #1210A2;
+ font-size: 49px;
  letter-spacing: 0;
  line-height: 38.8px;
  white-space: nowrap;
@@ -332,7 +356,7 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 .text-wrapper-7 {
  left: 178px;
  position: absolute;
- top: 1070px;
+ top: 575px;
  font-family: "FiraSans-Bold", Helvetica;
  font-weight: 900;
  color: #1210A2;
@@ -343,9 +367,9 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 }
 
 .text-wrapper-8 {
- left: 563px;
+ left: 178px;
  position: absolute;
- top: 1070px;
+ top: 636px;
  font-family: "FiraSans-Italic", Helvetica;
  font-weight: 900;
  color: #1210A2;
@@ -356,9 +380,9 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 }
 
 .text-wrapper-9 {
- left: 563px;
+ left: 129px;
  position: absolute;
- top: 1070px;
+ top: 1083px;
  font-family: "FiraSans-Italic", Helvetica;
  font-weight: 900;
  color: #1210A2;
@@ -366,4 +390,74 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
  letter-spacing: 0;
  line-height: 38.8px;
  white-space: nowrap;
+}
+
+/* Стили для секции 4 */
+.section-4 {
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1440px;
+height: 1138px;
+padding: 76px 53; /* Отступы сверху и снизу для секции */
+}
+
+.section-4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Горизонтальный прямоугольник */
+.horizontal-rectangle {
+    width: 579px;    /* Ширина */
+    height: 197px;    /* Высота */
+    background-color: #1210A2;
+    border-radius: 56.86px;
+}
+
+.text-wrapper-10 {
+    position: absolute;
+    top: 129px;
+    left: 405px;
+    font-family: 'FiraSans Bold'; 
+    font-size: 128px;
+    color: #F8E184;
+}
+
+/* Стили для секции 5 */
+.section-5 {
+position: relative;
+border: 1px dashed #ccc;
+top: 0;
+left: 0;
+width: 1440px;
+height: 2311px;
+padding: 76px 53; /* Отступы сверху и снизу для секции */
+}
+
+.section-5-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Горизонтальный прямоугольник */
+.horizontal-rectangle-5 {
+    width: 848px;    /* Ширина */
+    height: 197px;    /* Высота */
+    background-color: #1210A2;
+    border-radius: 56.86px;
+}
+
+.text-wrapper-10 {
+    position: absolute;
+    top: 129px;
+    left: 405px;
+    font-family: 'FiraSans Bold'; 
+    font-size: 128px;
+    color: #F8E184;
 }
