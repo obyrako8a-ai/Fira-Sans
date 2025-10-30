@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 body {
-    width: 1440px; /* По ширине макета */
-    margin: 0 auto; /* Выравнивание по центру */
-    display: block;
+width: 1440px; /* По ширине макета */
+margin: 0 auto; /* Выравнивание по центру */
+display: block;
 }
 
 /* Стили для секции 1 */
@@ -21,81 +21,81 @@ height: 929px;
 }
 
 .section-1 .new-badge {
- position: absolute;
- top: 669px;
- left: 127px;
- width: 249px;
- font-family: 'FiraSans Medium', Helvetica;
- font-weight: 500;
- color: #1210a2;
- font-size: 50px;
- letter-spacing: 0;
- line-height: 20px;
+position: absolute;
+top: 669px;
+left: 127px;
+width: 249px;
+font-family: 'FiraSans Medium', Helvetica;
+font-weight: 500;
+color: #1210a2;
+font-size: 50px;
+letter-spacing: 0;
+line-height: 20px;
 }
 
 .section-1 .collection-title {
- position: absolute;
- top: 515px;
- left: 1066px;
- width: 236px;
- font-family: 'FiraSans Medium', Helvetica;
- font-weight: 500;
- color: #1210a2;
- font-size: 50px;
- letter-spacing: 0;
- line-height: 20px;
+position: absolute;
+top: 515px;
+left: 1066px;
+width: 236px;
+font-family: 'FiraSans Medium', Helvetica;
+font-weight: 500;
+color: #1210a2;
+font-size: 50px;
+letter-spacing: 0;
+line-height: 20px;
 }
 
 .section-1 .text-wrapper-37 {
- left: 512px;
- position: absolute;
- top: 607px;
- font-family: 'FiraSans Black', Helvetica;
- font-weight: 900;
- color: #1210a2;
- font-size: 64px;
- letter-spacing: 0;
- line-height: 38.8px;
- white-space: nowrap;
+left: 512px;
+position: absolute;
+top: 607px;
+font-family: 'FiraSans Black', Helvetica;
+font-weight: 900;
+color: #1210a2;
+font-size: 64px;
+letter-spacing: 0;
+line-height: 38.8px;
+white-space: nowrap;
 }
 
 .section-1 .text-wrapper-36 {
- left: 766px;
- position: absolute;
- top: 607px;
- font-family: 'FiraSans Black', Helvetica;
- font-weight: 900;
- color: #1210a2;
- font-size: 64px;
- letter-spacing: 0;
- line-height: 38.8px;
- white-space: nowrap;
+left: 766px;
+position: absolute;
+top: 607px;
+font-family: 'FiraSans Black', Helvetica;
+font-weight: 900;
+color: #1210a2;
+font-size: 64px;
+letter-spacing: 0;
+line-height: 38.8px;
+white-space: nowrap;
 }
 
 .section-1 .text-wrapper-38 {
- position: absolute;
- top: 667px;
- left: 536px;
- font-family: 'FiraSans SemiBold', Helvetica;
- font-weight: 600;
- color: #1210a2;
- font-size: 28.7px;
- text-align: center;
- letter-spacing: 0;
- line-height: 32px;
+position: absolute;
+top: 667px;
+left: 536px;
+font-family: 'FiraSans SemiBold', Helvetica;
+font-weight: 600;
+color: #1210a2;
+font-size: 28.7px;
+text-align: center;
+letter-spacing: 0;
+line-height: 32px;
 }
 
 .section-1 .text-wrapper-39 {
- position: absolute;
- top: 667px;
- left: 785px;
- font-family: 'FiraSans SemiBold', Helvetica;
- font-weight: 600;
- color: #1210a2;
- font-size: 28.7px;
- text-align: center;
- letter-spacing: 0;
- line-height: 32px;
+position: absolute;
+top: 667px;
+left: 785px;
+font-family: 'FiraSans SemiBold', Helvetica;
+font-weight: 600;
+color: #1210a2;
+font-size: 28.7px;
+text-align: center;
+letter-spacing: 0;
+line-height: 32px;
 }
 
 .section-1 .hero_title {
@@ -109,29 +109,29 @@ text-shadow: -7px 4px 0px rgba(0, 0, 0, 1);
 }
 
 .section-1 .text-wrapper-34 {
- position: absolute;
- top: 554px;
- left: 1068px;
- width: 242px;
- font-family: 'FiraSans Medium', Helvetica;
- font-weight: 500;
- color: #1210a2;
- font-size: 20px;
- letter-spacing: -1.00px;
- line-height: 22px;
+position: absolute;
+top: 554px;
+left: 1068px;
+width: 242px;
+font-family: 'FiraSans Medium', Helvetica;
+font-weight: 500;
+color: #1210a2;
+font-size: 20px;
+letter-spacing: -1.00px;
+line-height: 22px;
 }
 
 .section-1 .text-wrapper-35 {
- position: absolute;
- top: 712px;
- left: 128px;
- width: 280px;
- font-family: 'FiraSans Medium', Helvetica;
- font-weight: 500;
- color: #1210a2;
- font-size: 20px;
- letter-spacing: 0;
- line-height: 22px;
+position: absolute;
+top: 712px;
+left: 128px;
+width: 280px;
+font-family: 'FiraSans Medium', Helvetica;
+font-weight: 500;
+color: #1210a2;
+font-size: 20px;
+letter-spacing: 0;
+line-height: 22px;
 }
 
 /* Стили для секции 2 */
@@ -251,76 +251,76 @@ padding: 76px 53;
 }
 
 .section-5-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
 }
 
 /* Горизонтальный прямоугольник */
 .horizontal-rectangle-5 {
-    width: 848px;
-    height: 229px;
-    background-color: #1210A2;
-    border-radius: 56.86px;
+width: 848px;
+height: 229px;
+background-color: #1210A2;
+border-radius: 56.86px;
 }
 
 .text-wrapper-11 {
-    position: absolute;
-    top: 50px;
-    left: 342px;
-    font-family: 'FiraSans Bold', Helvetica; 
-    font-size: 128px;
-    color: #F8E184;
+position: absolute;
+top: 50px;
+left: 342px;
+font-family: 'FiraSans Bold', Helvetica; 
+font-size: 128px;
+color: #F8E184;
 }
 
 /* Фотографии */
 .gallery-section {
-    width: 100%;
-    padding: 40px 0;
-    background: #fff;
+width: 100%;
+padding: 40px 0;
+background: #fff;
 }
 
 .gallery-container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
-    margin-top: 84px; /* Отступ между плашкой сверху и блоком фото */
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 20px;
+margin-top: 84px; /* Отступ между плашкой сверху и блоком фото */
 }
 
 /* Ряд с тремя фотографиями */
 .gallery-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 54px; /* Расстояние между рядами */
+display: flex;
+justify-content: space-between;
+margin-bottom: 54px; /* Расстояние между рядами */
 }
 
 .gallery-row:last-child {
-    margin-bottom: 0;
+margin-bottom: 0;
 }
 
 /* Каждая фотография с подписью */
 .photo-item {
-    display: flex;
-    flex-direction: column;
-    width: calc(33.333% - 94.67px); 
+display: flex;
+flex-direction: column;
+width: calc(33.333% - 94.67px); 
 }
 
 /* Стили для фотографий */
 .gallery-photo {
-    width: 100%;
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    display: block; /* Убирает лишние отступы */
+width: 100%;
+height: auto; /* Автоматическая высота для сохранения пропорций */
+display: block; /* Убирает лишние отступы */
 }
 
 /* Подписи к фотографиям */
 .photo-caption {
-    margin-top: 12px;
-    text-align: center;
-    font-family: 'FiraSans Medium', sans-serif;
-    font-size: 64px;
-    color: #1210A2;
-    line-height: 1.4;
+margin-top: 12px;
+text-align: center;
+font-family: 'FiraSans Medium', sans-serif;
+font-size: 64px;
+color: #1210A2;
+line-height: 1.4;
 }
 
 /* Стили для секции 6 */
