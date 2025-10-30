@@ -25,7 +25,7 @@ height: 929px;
  top: 669px;
  left: 127px;
  width: 249px;
- font-family: "FiraSans-Medium", Helvetica;
+ font-family: 'FiraSans Medium', Helvetica;
  font-weight: 500;
  color: #1210a2;
  font-size: 50px;
@@ -38,7 +38,7 @@ height: 929px;
  top: 515px;
  left: 1066px;
  width: 236px;
- font-family: "FiraSans-Medium", Helvetica;
+ font-family: 'FiraSans Medium', Helvetica;
  font-weight: 500;
  color: #1210a2;
  font-size: 50px;
@@ -50,7 +50,7 @@ height: 929px;
  left: 512px;
  position: absolute;
  top: 607px;
- font-family: "FiraSans-Black", Helvetica;
+ font-family: 'FiraSans Black', Helvetica;
  font-weight: 900;
  color: #1210a2;
  font-size: 64px;
@@ -63,7 +63,7 @@ height: 929px;
  left: 766px;
  position: absolute;
  top: 607px;
- font-family: "FiraSans-Black", Helvetica;
+ font-family: 'FiraSans Black', Helvetica;
  font-weight: 900;
  color: #1210a2;
  font-size: 64px;
@@ -76,7 +76,7 @@ height: 929px;
  position: absolute;
  top: 667px;
  left: 536px;
- font-family: "FiraSans-SemiBold", Helvetica;
+ font-family: 'FiraSans SemiBold', Helvetica;
  font-weight: 600;
  color: #1210a2;
  font-size: 28.7px;
@@ -89,7 +89,7 @@ height: 929px;
  position: absolute;
  top: 667px;
  left: 785px;
- font-family: "FiraSans-SemiBold", Helvetica;
+ font-family: 'FiraSans SemiBold', Helvetica;
  font-weight: 600;
  color: #1210a2;
  font-size: 28.7px;
@@ -100,12 +100,12 @@ height: 929px;
 
 .section-1 .hero_title {
 position: absolute;
-top: 81px;
+top: 112px;
 left: 239px;
-font-family: 'FiraSans SemiBold'; 
+font-family: 'FiraSans SemiBold', Helvetica;
 font-size: 236.75px;
 color: white;
-text-shadow: -7px 4px 0px 0px rgba(0, 0, 0, 1);
+text-shadow: -7px 4px 0px rgba(0, 0, 0, 1);
 }
 
 .section-1 .text-wrapper-34 {
@@ -113,7 +113,7 @@ text-shadow: -7px 4px 0px 0px rgba(0, 0, 0, 1);
  top: 554px;
  left: 1068px;
  width: 242px;
- font-family: "Fira Sans-Medium", Helvetica;
+ font-family: 'FiraSans Medium', Helvetica;
  font-weight: 500;
  color: #1210a2;
  font-size: 20px;
@@ -126,7 +126,7 @@ text-shadow: -7px 4px 0px 0px rgba(0, 0, 0, 1);
  top: 712px;
  left: 128px;
  width: 280px;
- font-family: "Fira Sans-Medium", Helvetica;
+ font-family: 'FiraSans Medium', Helvetica;
  font-weight: 500;
  color: #1210a2;
  font-size: 20px;
@@ -137,7 +137,6 @@ text-shadow: -7px 4px 0px 0px rgba(0, 0, 0, 1);
 /* Стили для секции 2 */
 .section-2 {
 position: relative;
-padding: 76px 0px;
 height: 1269px;
 }
 
@@ -146,31 +145,35 @@ width: 722px;
 height: 197px;    
 background-color: #1210A2;
 border-radius: 56.86px;
-top: 1005px;
+top: 76px;
 left: 359px;
+position: absolute;
+z-index: 10;
 }
 
 .section-2 .text-wrapper-0 {
 position: absolute;
-top: 129px;
-left: 405px;
-font-family: 'FiraSans Bold'; 
+top: 110px;
+left: 401px;
+font-family: 'FiraSans Bold', Helvetica;
 font-size: 128px;
 color: #F8E184;
+z-index: 20;
 }
 
 .section-2 img {
 position: absolute;
 width: 1441.57px;
 height: 1191px;
+top: 79px;
+left: 0px;
+right: 0px;
 }
 
 /* Стили для секции 3 */
 .section-3 {
 position: relative;
-padding: 76px 53;
-gap: 0px;
-height: 1456px;
+height: 1455px;
 }
 
 .section-3 .horizontal-rectangle {
@@ -178,21 +181,27 @@ width: 667px;
 height: 197px;
 background-color: #1210A2;
 border-radius: 56.86px;
+top: 53px;
+left: 414px;
+position: absolute;
+z-index: 10;
 }
 
 .section-3 img {
 position: absolute;
 width: 1440px;
 height: 1628px;
+top: -90px;
 }
 
 .section-3 .text-wrapper-6 {
 position: absolute;
-top: 129px;
-left: 405px;
-font-family: 'FiraSans Bold'; 
+top: 90px;
+left: 473px;
+font-family: 'FiraSans Bold', Helvetica;
 font-size: 128px;
 color: #F8E184;
+z-index: 20;
 }
 
 /* Стили для секции 4 */
@@ -206,15 +215,20 @@ width: 579px;
 height: 197px;
 background-color: #1210A2;
 border-radius: 56.86px;
+top: 61px;
+left: 434px;
+position: absolute;
+z-index: 10;
 }
 
 .section-4 .text-wrapper-10 {
 position: absolute;
-top: 129px;
-left: 405px;
-font-family: 'FiraSans Bold'; 
+top: 95px;
+left: 502px;
+font-family: 'FiraSans Bold', Helvetica;
 font-size: 128px;
 color: #F8E184;
+z-index: 20;
 }
 
 .section-4 img {
@@ -229,12 +243,11 @@ right: 41px;
 /* Стили для секции 5 */
 .section-5 {
 position: relative;
-border: 1px dashed #ccc;
 top: 0;
 left: 0;
 width: 1440px;
-height: 2311px;
-padding: 76px 53; /* Отступы сверху и снизу для секции */
+height: 2390px;
+padding: 76px 53; 
 }
 
 .section-5-content {
@@ -246,17 +259,17 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 
 /* Горизонтальный прямоугольник */
 .horizontal-rectangle-5 {
-    width: 848px;    /* Ширина */
-    height: 197px;    /* Высота */
+    width: 848px;
+    height: 229px;
     background-color: #1210A2;
     border-radius: 56.86px;
 }
 
 .text-wrapper-11 {
     position: absolute;
-    top: 68px;
+    top: 50px;
     left: 342px;
-    font-family: 'FiraSans Bold'; 
+    font-family: 'FiraSans Bold', Helvetica; 
     font-size: 128px;
     color: #F8E184;
 }
@@ -290,10 +303,10 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 .photo-item {
     display: flex;
     flex-direction: column;
-    width: calc(33.333% - 94.67px); /* (142px * 2) / 3 = 94.67px */
+    width: calc(33.333% - 94.67px); 
 }
 
-/* Стили для фотографий - БЕЗ обрезания и эффектов */
+/* Стили для фотографий */
 .gallery-photo {
     width: 100%;
     height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -313,47 +326,50 @@ padding: 76px 53; /* Отступы сверху и снизу для секци
 /* Стили для секции 6 */
 .section-6 {
 position: relative;
-gap: 0px;
-height: 1165px;
+height: 1255px;
 }
 
 .section-6 .horizontal-rectangle {
 width: 585px;
-height: 197px;
+height: 229px;
 background-color: #1210A2;
 border-radius: 56.86px;
+top: 90px;
+left: 428px;
+position: absolute;
+z-index: 10;
 }
 
 .section-6 img {
 position: absolute;
 width: 1359px;
 height: 760px;
-top: 296px;
+top: 386px;
 left: 45px;
 right: 36px;
 }
 
 .section-6 .text-wrapper-12 {
 position: absolute;
-top: 68px;
-left: 342px;
-font-family: 'FiraSans Bold'; 
+top: 140px;
+left: 491px;
+font-family: 'FiraSans Bold', Helvetica; 
 font-size: 128px;
 color: #F8E184;
+z-index: 20;
 }
 
 /* Стили для секции 7 */
 .section-7 {
 position: relative;
-border: 1px dashed #ccc;
 height: 852px; 
 }
 
 .section-7 .text-wrapper-13 {
 position: absolute;
 top: 0px;
-left: 96px;
-font-family: 'FiraSans Medium'; 
+left: 56px;
+font-family: 'FiraSans Medium', Helvetica;
 font-size: 64px;
 color: #1210A2;
 }
@@ -370,7 +386,6 @@ right: 24px;
 /* Стили для секции 8 */
 .section-8 {
 position: relative;
-gap: 0px;
 height: 829px;
 }
 
@@ -378,9 +393,7 @@ height: 829px;
 position: absolute;
 width: 1440px;
 height: 939px;
-top: 0px;
-left: 0px;
-right: 0px;
+top: -100px;
 }
 
 /* Стили для секции 9 */
@@ -393,20 +406,22 @@ padding: 76px 53;
 
 .section-9 .text-wrapper-16 {
 position: absolute;
-top: 38px;
-left: 96px;
-font-family: 'FiraSans Medium'; 
+top: 135px;
+left: 94px;
+font-family: 'FiraSans Medium', Helvetica; 
 font-size: 64px;
-color: #1210A2;
+color: #F8E184;
+z-index: 20;
 }
 
 .section-9 img {
 position: absolute;
 width: 1358px;
 height: 907px;
-top: 123px;
+top: 108px;
 left: 48px;
 right: 37px;
+z-index: 10;
 }
 
 /* Стили для секции 10 */
@@ -418,15 +433,18 @@ padding: 76px 53;
 
 .section-10 .text-wrapper-17 {
 position: absolute;
-top: 157px;
-left: 324px;
-font-family: 'FiraSans Bold'; 
+top: 63px;
+left: 48px;
+font-family: 'FiraSans Bold', Helvetica;
 font-size: 40px;
 color: #F8E184;
+z-index: 20;
+line-height: 48px; /* растояние между строк */
 }
 
 .section-10 img {
 position: absolute;
 width: 1440px;
 height: 297px;
+z-index: 10;
 }
